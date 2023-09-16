@@ -1,0 +1,112 @@
+/* Reset some default styles */
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #f44336;
+  }
+  
+  body.song-page{
+    background-color: #e8f809;
+    /* background-image: url('/images/ganesh-4419043_1920.jpg'); 
+    background-size: 60%;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1000px; */
+  }
+  /* Make the lyrics text bolder on song pages */
+body.song-page pre {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .background-container {
+    height: 600px;
+    width: 700px;
+  }
+  .background-container-ganeshji{
+    background-image: url(images/ganesh-4419043_1920.jpg); /* Replace with the image path */
+    background-size: 60%;
+    background-position: right 100px top 20px;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 1200px;
+  }
+  .background-container-vishnuji {
+    /* position: relative; 
+    background-image: url('/images/LordVishnu.png');
+    background-size: 60%; */
+    /* background-repeat: no-repeat; */
+    height: 600px;
+    width: 700px;
+}
+
+/* Style for the image */
+.image-vishnuji {
+    position: absolute; /* Position the image absolutely */
+    top: 160px; /* Adjust the top position as needed */
+    right: 80px;
+    /* left :10px; */
+    width: 300px; /* Adjust the image width as needed */
+    height: auto; /* Maintain the aspect ratio */
+}
+.background-container-hanumanji {
+  height: 600px;
+  width: 700px;
+}
+.gif-hanumanji {
+  position: absolute; 
+  top: 160px; 
+  right: 80px;
+  width: 400px; 
+  height: auto; 
+}
+.gif-ambe {
+  position: absolute; 
+  top: 160px; 
+  right: 50px;
+  width: 400px; 
+  height: auto; 
+}
+.image-makali {
+  position: absolute; 
+  top: 110px; 
+  right: 50px;
+  width: 380px; 
+  height: auto; 
+}
